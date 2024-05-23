@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2CAD02D2BFFB19200554D66 /* Consistency_TrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAD02C2BFFB19200554D66 /* Consistency_TrackApp.swift */; };
+		C2CAD02F2BFFB19200554D66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAD02E2BFFB19200554D66 /* ContentView.swift */; };
+		C2CAD0312BFFB19500554D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CAD0302BFFB19500554D66 /* Assets.xcassets */; };
+		C2CAD0342BFFB19500554D66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CAD0332BFFB19500554D66 /* Preview Assets.xcassets */; };
+		C2CAD03E2BFFB19600554D66 /* Consistency_TrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAD03D2BFFB19600554D66 /* Consistency_TrackTests.swift */; };
+		C2CAD0482BFFB19600554D66 /* Consistency_TrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAD0472BFFB19600554D66 /* Consistency_TrackUITests.swift */; };
+		C2CAD04A2BFFB19600554D66 /* Consistency_TrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAD0492BFFB19600554D66 /* Consistency_TrackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2CAD03A2BFFB19600554D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2CAD0212BFFB19200554D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2CAD0282BFFB19200554D66;
+			remoteInfo = "Consistency Track";
+		};
+		C2CAD0442BFFB19600554D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2CAD0212BFFB19200554D66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2CAD0282BFFB19200554D66;
+			remoteInfo = "Consistency Track";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2CAD0292BFFB19200554D66 /* Consistency Track.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Consistency Track.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CAD02C2BFFB19200554D66 /* Consistency_TrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consistency_TrackApp.swift; sourceTree = "<group>"; };
+		C2CAD02E2BFFB19200554D66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2CAD0302BFFB19500554D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2CAD0332BFFB19500554D66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2CAD0392BFFB19600554D66 /* Consistency TrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Consistency TrackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CAD03D2BFFB19600554D66 /* Consistency_TrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consistency_TrackTests.swift; sourceTree = "<group>"; };
+		C2CAD0432BFFB19600554D66 /* Consistency TrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Consistency TrackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CAD0472BFFB19600554D66 /* Consistency_TrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consistency_TrackUITests.swift; sourceTree = "<group>"; };
+		C2CAD0492BFFB19600554D66 /* Consistency_TrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consistency_TrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2CAD0262BFFB19200554D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CAD0362BFFB19600554D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CAD0402BFFB19600554D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2CAD0202BFFB19200554D66 = {
+			isa = PBXGroup;
+			children = (
+				C2CAD02B2BFFB19200554D66 /* Consistency Track */,
+				C2CAD03C2BFFB19600554D66 /* Consistency TrackTests */,
+				C2CAD0462BFFB19600554D66 /* Consistency TrackUITests */,
+				C2CAD02A2BFFB19200554D66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2CAD02A2BFFB19200554D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2CAD0292BFFB19200554D66 /* Consistency Track.app */,
+				C2CAD0392BFFB19600554D66 /* Consistency TrackTests.xctest */,
+				C2CAD0432BFFB19600554D66 /* Consistency TrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2CAD02B2BFFB19200554D66 /* Consistency Track */ = {
+			isa = PBXGroup;
+			children = (
+				C2CAD02C2BFFB19200554D66 /* Consistency_TrackApp.swift */,
+				C2CAD02E2BFFB19200554D66 /* ContentView.swift */,
+				C2CAD0302BFFB19500554D66 /* Assets.xcassets */,
+				C2CAD0322BFFB19500554D66 /* Preview Content */,
+			);
+			path = "Consistency Track";
+			sourceTree = "<group>";
+		};
+		C2CAD0322BFFB19500554D66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2CAD0332BFFB19500554D66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2CAD03C2BFFB19600554D66 /* Consistency TrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2CAD03D2BFFB19600554D66 /* Consistency_TrackTests.swift */,
+			);
+			path = "Consistency TrackTests";
+			sourceTree = "<group>";
+		};
+		C2CAD0462BFFB19600554D66 /* Consistency TrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2CAD0472BFFB19600554D66 /* Consistency_TrackUITests.swift */,
+				C2CAD0492BFFB19600554D66 /* Consistency_TrackUITestsLaunchTests.swift */,
+			);
+			path = "Consistency TrackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2CAD0282BFFB19200554D66 /* Consistency Track */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CAD04D2BFFB19600554D66 /* Build configuration list for PBXNativeTarget "Consistency Track" */;
+			buildPhases = (
+				C2CAD0252BFFB19200554D66 /* Sources */,
+				C2CAD0262BFFB19200554D66 /* Frameworks */,
+				C2CAD0272BFFB19200554D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Consistency Track";
+			productName = "Consistency Track";
+			productReference = C2CAD0292BFFB19200554D66 /* Consistency Track.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2CAD0382BFFB19600554D66 /* Consistency TrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CAD0502BFFB19600554D66 /* Build configuration list for PBXNativeTarget "Consistency TrackTests" */;
+			buildPhases = (
+				C2CAD0352BFFB19600554D66 /* Sources */,
+				C2CAD0362BFFB19600554D66 /* Frameworks */,
+				C2CAD0372BFFB19600554D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2CAD03B2BFFB19600554D66 /* PBXTargetDependency */,
+			);
+			name = "Consistency TrackTests";
+			productName = "Consistency TrackTests";
+			productReference = C2CAD0392BFFB19600554D66 /* Consistency TrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2CAD0422BFFB19600554D66 /* Consistency TrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CAD0532BFFB19600554D66 /* Build configuration list for PBXNativeTarget "Consistency TrackUITests" */;
+			buildPhases = (
+				C2CAD03F2BFFB19600554D66 /* Sources */,
+				C2CAD0402BFFB19600554D66 /* Frameworks */,
+				C2CAD0412BFFB19600554D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2CAD0452BFFB19600554D66 /* PBXTargetDependency */,
+			);
+			name = "Consistency TrackUITests";
+			productName = "Consistency TrackUITests";
+			productReference = C2CAD0432BFFB19600554D66 /* Consistency TrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2CAD0212BFFB19200554D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C2CAD0282BFFB19200554D66 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C2CAD0382BFFB19600554D66 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C2CAD0282BFFB19200554D66;
+					};
+					C2CAD0422BFFB19600554D66 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C2CAD0282BFFB19200554D66;
+					};
+				};
+			};
+			buildConfigurationList = C2CAD0242BFFB19200554D66 /* Build configuration list for PBXProject "Consistency Track" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2CAD0202BFFB19200554D66;
+			productRefGroup = C2CAD02A2BFFB19200554D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2CAD0282BFFB19200554D66 /* Consistency Track */,
+				C2CAD0382BFFB19600554D66 /* Consistency TrackTests */,
+				C2CAD0422BFFB19600554D66 /* Consistency TrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2CAD0272BFFB19200554D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CAD0342BFFB19500554D66 /* Preview Assets.xcassets in Resources */,
+				C2CAD0312BFFB19500554D66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CAD0372BFFB19600554D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CAD0412BFFB19600554D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2CAD0252BFFB19200554D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CAD02F2BFFB19200554D66 /* ContentView.swift in Sources */,
+				C2CAD02D2BFFB19200554D66 /* Consistency_TrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CAD0352BFFB19600554D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CAD03E2BFFB19600554D66 /* Consistency_TrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CAD03F2BFFB19600554D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CAD0482BFFB19600554D66 /* Consistency_TrackUITests.swift in Sources */,
+				C2CAD04A2BFFB19600554D66 /* Consistency_TrackUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2CAD03B2BFFB19600554D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2CAD0282BFFB19200554D66 /* Consistency Track */;
+			targetProxy = C2CAD03A2BFFB19600554D66 /* PBXContainerItemProxy */;
+		};
+		C2CAD0452BFFB19600554D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2CAD0282BFFB19200554D66 /* Consistency Track */;
+			targetProxy = C2CAD0442BFFB19600554D66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2CAD04B2BFFB19600554D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2CAD04C2BFFB19600554D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2CAD04E2BFFB19600554D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Consistency Track/Preview Content\"";
+				DEVELOPMENT_TEAM = SR8V62QJF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinchami.Consistency-Track";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2CAD04F2BFFB19600554D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Consistency Track/Preview Content\"";
+				DEVELOPMENT_TEAM = SR8V62QJF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinchami.Consistency-Track";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2CAD0512BFFB19600554D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V62QJF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinchami.Consistency-TrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consistency Track.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Consistency Track";
+			};
+			name = Debug;
+		};
+		C2CAD0522BFFB19600554D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V62QJF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinchami.Consistency-TrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consistency Track.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Consistency Track";
+			};
+			name = Release;
+		};
+		C2CAD0542BFFB19600554D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V62QJF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinchami.Consistency-TrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Consistency Track";
+			};
+			name = Debug;
+		};
+		C2CAD0552BFFB19600554D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V62QJF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinchami.Consistency-TrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Consistency Track";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2CAD0242BFFB19200554D66 /* Build configuration list for PBXProject "Consistency Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CAD04B2BFFB19600554D66 /* Debug */,
+				C2CAD04C2BFFB19600554D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CAD04D2BFFB19600554D66 /* Build configuration list for PBXNativeTarget "Consistency Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CAD04E2BFFB19600554D66 /* Debug */,
+				C2CAD04F2BFFB19600554D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CAD0502BFFB19600554D66 /* Build configuration list for PBXNativeTarget "Consistency TrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CAD0512BFFB19600554D66 /* Debug */,
+				C2CAD0522BFFB19600554D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CAD0532BFFB19600554D66 /* Build configuration list for PBXNativeTarget "Consistency TrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CAD0542BFFB19600554D66 /* Debug */,
+				C2CAD0552BFFB19600554D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2CAD0212BFFB19200554D66 /* Project object */;
+}
