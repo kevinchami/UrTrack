@@ -15,7 +15,7 @@ macOS
 Steps
 Clone the repository:
 sh
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/kevinchami/UrTrack
 cd yourproject
 Open the project in Xcode:
 sh
